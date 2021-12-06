@@ -23,7 +23,7 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOSTNAME} '
           
             #Now we have got the access of AZURE and we will start the deploy .
-            cd /home/ubuntu/CounterApp &&
+            cd /var/www/ci.dogwelfare.site/EADlab4cicd &&
             sudo git checkout main &&
             sudo git fetch --all &&
             sudo git reset --hard origin/main &&
