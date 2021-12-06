@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Ead lab 4: CI CD, gitworflow</h1>
+    <h1>Ead lab 4: CI CD, gitworkflow</h1>
 </body>
 
 </html>
